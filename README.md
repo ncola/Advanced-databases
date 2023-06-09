@@ -5,21 +5,33 @@ This repository contains tasks related to advanced databases.
 ## I. Hierarchical Task
 
 1.  Propose a tree structure:
+
     World
+    
     \-\--Continents
+    
     \-\-\-\-\-\--Countries
+    
     \-\-\-\-\-\-\-\-\-\--Cities
+    
     \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--Streets
 
     Represent this structure in a table using the hierarchical type.
 
 2.  Write SQL commands:
+
     a) Display an entire branch of the tree (from World to Street).
+    
     b) Add a new country.
+    
     c) Display the name of the continent where the city 'x' is located.
+    
     d) Display the names of all countries.
+    
     e) Check if country 'x' is located on continent 'y'.
+    
     f) Check if both 'x' and 'y' are countries.
+    
     g) Display all streets of city 'x'.
 
 3\. Represent the tree structure from point 1 without using the
