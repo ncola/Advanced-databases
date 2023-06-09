@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # Advanced-databases
 
 This repository contains tasks related to advanced databases.
